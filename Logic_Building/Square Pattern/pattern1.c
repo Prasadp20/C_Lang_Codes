@@ -3,17 +3,16 @@
 void main()
 {
 	int rows = 0;
-
-	printf("Enter the rows : ");
+	printf("Enter the rows you want to print : ");
 	scanf("%d", &rows);
 
 	for(int i = 1; i <= rows; i++)
 	{
-		int num = 0;
-		for(int j = 1; j <= i; j++)
+		for(int j = 1; j <= rows; j++)
 		{
-			printf("%d  ", ++num);
+			printf(" * ");
 		}
+
 		printf("\n");
 	}
 }

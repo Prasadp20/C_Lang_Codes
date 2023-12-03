@@ -2,19 +2,16 @@
 
 void main()
 {
-	char ch = 'a';
-
 	int rows = 0;
-	printf("Enter the rows : ");
+	printf("Enter how many rows you want to print : ");
 	scanf("%d", &rows);
 
 	for(int i = 1; i <= rows; i++)
 	{
 		for(int j = 1; j <= i; j++)
 		{
-			printf("%c  ", ch++);
+			printf("* ");
 		}
-
 		printf("\n");
 	}
 }
